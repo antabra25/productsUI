@@ -3,12 +3,14 @@
   position: fixed;
   justify-content: center;
   align-items: center;
-  background: var(--pewter-blue);
+  background-color: rgba(0, 0, 0, 0.5);
   top: 0;
   left: 0;
   height: 100vh;
   width: 100%;
   z-index: 100;
+  transition: all 0.3s ease-in-out;
+
 
   .modal {
     height: 100%;
@@ -18,14 +20,14 @@
     max-width: 450px;
     max-height: 450px;
     border-radius: 8px;
-    z-index: 200;
+    z-index: 999;
 
     .modal-top {
       display: flex;
       justify-content: flex-end;
       position: fixed;
-      top: 5px;
-      right: 5px;
+      top: 60px;
+      right: 10px;
       width: 100%;
 
       button {
