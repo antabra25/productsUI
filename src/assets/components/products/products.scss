@@ -1,0 +1,29 @@
+.client-container {
+  min-height: 100vh;
+  margin: 2rem;
+
+  .client {
+
+    p {
+      margin: 1rem;
+      font-size: 1.2rem;
+      color: var(--rich-black-fogra-39);
+      line-height: 1.5;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: var(--russian-violet);
+    }
+
+    .title {
+      margin-top: 1rem;
+      margin-left: 1rem;
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: var(--russian-violet)
+    }
+  }
+
+}

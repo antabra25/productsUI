@@ -1,0 +1,13 @@
+.content-container {
+  background: var(--silver-sand);
+  width: 100%;
+  .content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    width: 90%;
+    min-height: 100vh;
+
+
+  }
+}

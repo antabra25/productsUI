@@ -1,0 +1,24 @@
+.gallery-container {
+  height: auto;
+  .gallery {
+
+    background: transparent;
+
+    .gallery-content {
+      display: flex;
+      flex-flow: row nowrap;
+      column-gap: 1rem;
+      margin: 2rem 2rem;
+      width: auto;
+
+
+
+      .gallery-image{
+        width: 400px;
+        height: 400px;
+        display: block;
+        border: var(--pewter-blue) 2px solid;
+      }
+    }
+  }
+}

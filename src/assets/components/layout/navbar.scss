@@ -1,0 +1,35 @@
+.navbar-container {
+
+  .navbar {
+    position: relative;
+    background: var(--indigo-dye);
+    height: 60px;
+    width: 100%;
+    .navbar-content{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      height: 100%;
+      align-items: center;
+      align-content: center;
+      .logo {
+        color:var(--mint-cream)
+      }
+
+      a{
+        color:white;
+        text-decoration:none;
+      }
+      .left-content {
+        display: flex;
+        flex-flow: row nowrap;
+        column-gap: 3rem;
+
+      }
+    }
+
+
+  }
+}

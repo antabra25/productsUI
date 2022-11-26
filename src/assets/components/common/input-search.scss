@@ -1,0 +1,26 @@
+.input-search-container {
+  align-self: center;
+  .input-search{
+    position: relative;
+    width: 400px;
+    color:var(--oxford-blue);
+    .search-logo{
+      position: absolute;
+      left: 90%;
+      top:6px;
+    }
+    input{
+      padding: 1rem;
+      border-radius: 5px;
+      height: 38px;
+      width: 100%;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+    }
+    input:focus{
+      outline:3px solid var(--pewter-blue);
+
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.list-product-container {
+  width: 100%;
+
+  .two {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .three {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .four {
+
+  }
+
+  .list-product {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 2rem;
+  }
+}
+
+
+
+
