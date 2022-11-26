@@ -14,12 +14,10 @@ const InputSearch = () => {
     return (
         <div className="input-search-container">
             <div className="input-search">
-
                 <input type="text" value={query} onChange={handleChangeQuery}/>
                 <div className="search-logo">
                     <MagnifyingGlass size={24} weight="bold"/>
                 </div>
-
             </div>
 
         </div>

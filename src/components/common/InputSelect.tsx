@@ -16,7 +16,7 @@ const InputSelect = ({label, name, value, id, options, handleChange}: InputSelec
 
         <div className="input-select-container">
             <div className="input-select">
-                <label htmlFor={id}>{label}: </label>
+                <label htmlFor={id}>{label}:</label>
                 <select name={name} id={id} value={value} onChange={handleChange}>
                     {
                         options.map((option, index) => <option key={index} value={option}>{option}</option>)

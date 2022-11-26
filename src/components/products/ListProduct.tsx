@@ -31,7 +31,7 @@ const ListProduct = ({products}: ListProductProps) => {
     const options = ['two', 'three', 'four']
     return (
         <>
-            <InputSelect label="Tarjetas por fila " id="row" name="row" value={select} options={options}
+            <InputSelect label="Cards " id="row" name="row" value={select} options={options}
                          handleChange={handleChangeOption}/>
             <div className='list-product-container'>
 

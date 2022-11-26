@@ -27,7 +27,7 @@ const Card = ({id, title, brand, thumbnail, images,onShow}: Card) => {
                         <p>{brand}</p>
                     </div>
                     <div className="card-footer">
-                        <button onClick={()=>onShow(id,images)} className="navigate-btn" >ver</button>
+                        <button onClick={()=>onShow(id,images)} className="navigate-btn" >watch</button>
                     </div>
                 </div>
             </div>
